@@ -1,0 +1,14 @@
+option
+    link(debug, "no"), gen(debug, "no"),
+    link(linkwithsharedlib, "no")
+{
+
+    target "au8820x.exe"
+    {
+
+        source type(c) "au8820x.c"
+
+    }
+
+}
+
